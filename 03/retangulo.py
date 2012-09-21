@@ -39,7 +39,7 @@ class Retangulo(object):
             raise ValueError
     
     def obter_perimetro(self):
-        return ((self.altura**2) + (self.base**2))
+        return ((self.altura*2) + (self.base*2))
     
     base = property(consultar_base, alterar_base)
     altura = property(consultar_altura, alterar_altura) 

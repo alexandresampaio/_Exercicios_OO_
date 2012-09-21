@@ -6,7 +6,7 @@ class Bola(object):
     def __init__(self,cor):
         self.cor = cor
     
-    def trocar_cor(self, nova_cor):
+    def alterar_cor(self, nova_cor):
         self.cor = nova_cor
     
     def obter_cor(self):

@@ -1,5 +1,9 @@
 import unittest
+import sys
 from should_dsl import should
+sys.path.append('./01')
+sys.path.append('./02')
+sys.path.append('./03')
 from bola import Bola
 from quadrado import Quadrado
 from retangulo import Retangulo
