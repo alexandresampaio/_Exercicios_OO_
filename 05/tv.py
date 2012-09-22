@@ -1,0 +1,2 @@
+#-*-coding:utf-8-*-
+#5) Crie uma classe que modele uma televisão e que permita ligar e desligar a TV, e #alterar e consultar o número do canal e o volume. O número do canal e o volume somente #podem ser alterados dentro de uma faixa válida.
